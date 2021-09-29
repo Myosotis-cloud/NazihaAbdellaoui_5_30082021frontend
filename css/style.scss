@@ -234,7 +234,7 @@ a:focus {
 }
 
 .custom_nav-container .navbar-toggler {
-  outline: none;
+  outline: 2px solid black;
 }
 
 .custom_nav-container .navbar-toggler {
@@ -284,11 +284,7 @@ a:focus {
         top: 0;
       }
     }
-
-
   }
-
-
 }
 
 /*end header section*/
@@ -808,3 +804,9 @@ a:focus {
 }
 
 // end footer section
+
+/* page_panier */
+.section-panier{
+  display: flex;
+  justify-content: center;
+}
